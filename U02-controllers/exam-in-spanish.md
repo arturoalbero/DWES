@@ -27,7 +27,7 @@
 
 - Debes añadir una cabecera (*head*) como fragmento y un pie de página (*footer*) como bloque. Ambos se encuentran en el archivo `/fragments.html` y se llaman `custom-head` y `custom-footer`, respectivamente. (0,5 puntos)
 
-- La vista recibe un objeto `STUDENT(NIA, name, surname, birth, course, nationality, chairNumberPosition, observations)`. La nacionalidad es un enumerado (`enum`) con los valores `SPANISH`, `EUROPEAN` y `NON-EU` (aunque puedes gestionarlo como si fuera un `String`).
+- La vista recibe una lista del objeto `STUDENT(NIA, name, surname, birth, course, nationality, chairNumberPosition, observations)`. La nacionalidad es un enumerado (`enum`) con los valores `SPANISH`, `EUROPEAN` y `NON-EU` (aunque puedes gestionarlo como si fuera un `String`).
 
   Para cada estudiante, muestra sus apellidos, nombre, curso y posición en el aula. Muestra también las observaciones, si las hay. En caso contrario, muestra «sin observaciones». (1 punto)
 
