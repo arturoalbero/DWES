@@ -433,7 +433,7 @@ With this very simple example, you can already appreciate the *magic* and *appea
 
 ---
 
-> **ACTIVITY:** Given a list of People, use streams to achieve the following results:
+> **ACTIVITY:** Given a list of People(name, surname, age, skills), use streams to achieve the following results:
 >
 > * A list of all people whose name starts with the letter `A`.
 >
@@ -444,6 +444,7 @@ With this very simple example, you can already appreciate the *magic* and *appea
 > * A map that divides people into `"Minors"` (<18), `"Working age"` (between 18 and 67), and `"Retirement age"` (>=67).
 > * A String containing the initials of all people, ordered by age from youngest to oldest and then alphabetically, separated by `-`. Make one version with `collect()` and another with `reduce()`.
 > * Check if there is any person whose name starts with a consonant and is of legal age. Make a version that outputs yes/no and another that returns the specific person who meets the conditions.
+> * Given that skills is a List of different skills (implemented through String), from a list of people create a list of all the skills that all the people has, without repeating values.
 
 > **ACTIVITY:**
 > Improve the practice from the previous programming unit (My Favourite Composer) as follows:
